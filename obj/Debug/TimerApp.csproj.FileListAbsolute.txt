@@ -1,0 +1,11 @@
+A:\VSProject\TimerApp\bin\Debug\TimerApp.exe.config
+A:\VSProject\TimerApp\bin\Debug\TimerApp.exe
+A:\VSProject\TimerApp\bin\Debug\TimerApp.pdb
+A:\VSProject\TimerApp\obj\Debug\TimerApp.csproj.AssemblyReference.cache
+A:\VSProject\TimerApp\obj\Debug\TimerApp.csproj.SuggestedBindingRedirects.cache
+A:\VSProject\TimerApp\obj\Debug\TimerApp.Form1.resources
+A:\VSProject\TimerApp\obj\Debug\TimerApp.Properties.Resources.resources
+A:\VSProject\TimerApp\obj\Debug\TimerApp.csproj.GenerateResource.cache
+A:\VSProject\TimerApp\obj\Debug\TimerApp.csproj.CoreCompileInputs.cache
+A:\VSProject\TimerApp\obj\Debug\TimerApp.exe
+A:\VSProject\TimerApp\obj\Debug\TimerApp.pdb
