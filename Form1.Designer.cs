@@ -257,12 +257,12 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("微软雅黑", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(206, 26);
+            this.label4.Font = new System.Drawing.Font("微软雅黑", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Location = new System.Drawing.Point(410, 29);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(748, 92);
+            this.label4.Size = new System.Drawing.Size(340, 86);
             this.label4.TabIndex = 3;
-            this.label4.Text = "2023年 浦东新区机器人知识与实践活动计时赛\r\n智能除草项目";
+            this.label4.Text = "ENJOY AI";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 

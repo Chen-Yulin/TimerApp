@@ -14,8 +14,8 @@ namespace TimerApp
 {
     public partial class Form1 : Form
     {
-        public float roundLimit = 2 * 60 * 1000f;
-        public float totalLimit = 10 * 60 * 1000f;
+        public float roundLimit = 2.5f * 60 * 1000f;
+        public float totalLimit = 15f * 60 * 1000f;
 
         private System.Timers.Timer timer1;
         private Stopwatch stopwatch1;
