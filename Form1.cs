@@ -8,13 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Media;
 
 namespace TimerApp
 {
     public partial class Form1 : Form
     {
-        public float roundLimit = 2  * 1000f;
-        public float totalLimit = 10  * 1000f;
+        public float roundLimit = 2 * 60 * 1000f;
+        public float totalLimit = 10 * 60 * 1000f;
 
         private System.Timers.Timer timer1;
         private Stopwatch stopwatch1;
@@ -22,6 +23,8 @@ namespace TimerApp
         private Stopwatch stopwatch2;
         private System.Timers.Timer timer3;
         private Stopwatch stopwatch3;
+
+        private SoundPlayer player = new SoundPlayer(Properties.Resources.ring);
         string FormatTime(long milliseconds)
         {
             int totalSeconds = (int)(milliseconds / 1000);
@@ -68,6 +71,7 @@ namespace TimerApp
             {
                 stopwatch1.Stop();
                 textBox1.BackColor = Color.Yellow;
+                player.Play();
             }
         }
         private void Timer_Tick2(object sender, EventArgs e)
@@ -77,6 +81,7 @@ namespace TimerApp
             {
                 stopwatch2.Stop();
                 textBox2.BackColor = Color.Yellow;
+                player.Play();
             }
         }
         private void Timer_Tick3(object sender, EventArgs e)
@@ -86,6 +91,7 @@ namespace TimerApp
             {
                 stopwatch3.Stop();
                 textBox3.BackColor = Color.Red;
+                player.Play();
             }
         }
 
